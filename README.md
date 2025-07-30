@@ -27,18 +27,19 @@
 
 ## 📁 Folder Structure
 
+```bash
 Quickbite/
 ├── public/
-├── reduxtoolkit/ # Redux Toolkit store and slices
-│ ├── appStore.js
-│ └── cartSlice.js
+├── reduxtoolkit/
+│   ├── appStore.js
+│   └── cartSlice.js
 ├── src/
-│ ├── assets/ # Static files and images
-│ ├── components/ # Reusable React components
-│ ├── utils/ # Custom hooks, helpers, API configs
-│ ├── App.jsx # Main application layout
-│ ├── index.css # Global styles (Tailwind included)
-│ └── main.jsx # App entry point
+│   ├── assets/
+│   ├── components/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── .gitignore
 ├── README.md
 ├── index.html
@@ -46,3 +47,4 @@ Quickbite/
 ├── eslint.config.js
 ├── package.json
 └── package-lock.json
+```
